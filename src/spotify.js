@@ -23,3 +23,7 @@ export const getTokenFromResponse = () => {
 }
 
 export const loginUrl = `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`;
+
+// https://spotify-clone-4ad54.web.app/
+
+// http://localhost:3000/
